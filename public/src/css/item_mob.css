@@ -1,0 +1,92 @@
+@media(max-width:767px){
+	
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+	
+	.item-box-page{
+		width:100%;
+		min-height:200px;
+		border:0px solid #fff;
+		background:#fff;
+		margin-bottom:30px;
+		border-radius:5px;
+		box-shadow:0 2px 8px #b2b6bb;
+	}
+	
+	.item-box-page img{
+		background-size:cover;
+		background-repeat:no-repeat;
+		width:100%;
+		height:auto;
+	}
+	
+	.item-box-page span{
+		font:normal 12px "Roboto", sans-serif;
+		color:#555;
+		margin:20px 4%;
+		display:block;
+	}
+	
+	
+	.item-box-page h5{
+		font:normal 15px "Roboto", sans-serif;
+		color:#555;
+		margin:20px 4%;
+		display:block;
+		line-height:25px;
+	}
+	
+	.item-box-page h4{
+		font:600 1.5em "Roboto", sans-serif;
+		color:#333;
+		margin:20px 4%;
+		display:block;
+	}	
+	
+	.box-views{
+		background:#ebebeb;
+		color:#555;
+		font:400 14px "Roboto", sans-serif;
+		padding:5px 8px;
+		border-radius:4px;
+		width:fit-content;
+		display:flex;
+		align-items:center;
+	}
+	
+	.grupo-view{
+		display:flex;
+		align-items:center;
+		margin-bottom:20px;
+		margin-left:4%;
+	}
+
+	.icon-views{
+		display:block !important;
+		width:auto !important;
+		float:left !important;
+	}
+	
+	
+	.tag-categoria{
+		margin:20px 0 20px 4%;
+		color:#666;
+	}
+	
+	.icone-compartilha{
+		width:auto !important;
+		background:#fff !important;
+		float:right;
+		margin:25px 4% 0 0 !important;
+	}
+	
+	.tag-oferta{
+		width:auto !important;
+		float:left !important;
+		position:absolute !important;
+		background:transparent !important;
+		margin:0 !important;
+		margin-left:1.6% !important;
+		margin-top:66px !important;
+	}
+
+}

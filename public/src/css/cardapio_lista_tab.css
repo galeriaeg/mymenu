@@ -1,0 +1,194 @@
+@media (min-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #eee;
+  }
+
+  a {
+    color: #777;
+  }
+  a:hover {
+    color: #555;
+  }
+
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    background: #cbd0d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+
+  header div {
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  header span {
+    color: #333;
+    font: 500 17px "Roboto", sans-serif;
+  }
+
+  nav {
+    width: 100%;
+    color: #333;
+    font: 400 14px "Roboto", sans-serif;
+    padding: 15px 0;
+    background: #d3d7db;
+  }
+
+  .text {
+    font: 400 17px "Roboto", sans-serif;
+    color: #333;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .bg-topo-botons {
+    background-image: url("../img/bg-top.png");
+  }
+
+  .icone-link-topo {
+    margin-right: 20px;
+    font: 400 30px "Roboto", sans-serif;
+    cursor: pointer;
+  }
+
+  .dropdown-link-topo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+
+  .dropdown-link-topo a {
+    padding: 5px 16px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .icone-seta {
+    width: 22px;
+    color: #555;
+    font: 400 28px "Roboto", sans-serif;
+    margin-right: 25px;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+
+  .header-page {
+    background-image: url("src/img/carne-sol.png");
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    font: 400 16px "Roboto", sans-serif;
+    color: #555;
+  }
+
+  .tag-promo {
+    margin-left: 2%;
+  }
+
+  .main {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2%;
+    justify-content: flex-start;
+    gap: 2%;
+  }
+
+  .item-box {
+    width: 173px;
+    min-height: 200px;
+    border: 0px solid #fff;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #b2b6bb;
+    cursor: pointer;
+  }
+
+  .item-box div {
+    background: #d3d7db;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+    width: auto;
+    height: 124px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .item-box span {
+    font: normal 12px "Roboto", sans-serif;
+    color: #777;
+    margin: 12px 4%;
+    display: block;
+  }
+
+  .item-box h5 {
+    font: normal 15px "Roboto", sans-serif;
+    color: #333;
+    margin: 15px 4%;
+    display: block;
+  }
+
+  .item-box h4 {
+    font: 600 1em "Roboto", sans-serif;
+    color: #333;
+    margin: 12px 4%;
+    display: block;
+  }
+
+  footer {
+    font: 400 11px "Roboto", sans-serif;
+    color: #555;
+    margin: 30px 0;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #cbd0d5;
+    padding-top: 30px;
+    line-height: 18px;
+  }
+
+  .icone_plus {
+    margin: 12px 4%;
+    width: fit-content;
+  }
+
+  .alert-aviso {
+    width: -webkit-fill-available;
+    font: 400 16px "Roboto", sans-serif;
+    background-color: #ffed50;
+    color: #8c7d00;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .tag-desconto {
+    position: absolute;
+    margin-left: 10px;
+  }
+}

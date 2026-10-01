@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorte de Imagem antes do Upload</title>
+</head>
+<body>
+
+<input type="file" id="imagem">
+<button onclick="validarAspectRatio()">Validar e enviar</button>
+
+<script>
+function validarAspectRatio() {
+    const inputImagem = document.getElementById("imagem");
+    const arquivo = inputImagem.files[0];
+
+    if (arquivo) {
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const img = new Image();
+            img.onload = function() {
+                const largura = img.width;
+                const altura = img.height;
+                const aspect_ratio = largura / altura;
+
+                if (aspect_ratio === 1.4) { // Exemplo: 14:10 (vídeo)
+                    alert("Aspect Ratio correto! Pode enviar.");
+                } else {
+                    alert("Aspect Ratio inválido. Por favor, selecione uma imagem com a proporção correta.");
+                }
+            };
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(arquivo);
+    } else {
+        alert("Por favor, selecione uma imagem.");
+    }
+}
+</script>
+
+
+<hr>
+
+<input type="file" id="myInput">
+<div id="myDiv">Conteúdo do Div</div>
+
+<script>
+  document.addEventListener('click', function(event) {
+	let img = document.getElementById("imagem").value;
+	alert(img);
+    if (!event.target.closest('#myInput')) {
+      // O clique foi fora do input
+      // Execute sua ação aqui
+      document.getElementById('myDiv').textContent = 'Clicou fora do input!';
+    }
+  });
+</script>
+
+</body>
+</html>

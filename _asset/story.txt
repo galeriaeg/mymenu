@@ -1,0 +1,36 @@
+slide 1
+"O cardup é uma solução web criada para 
+te ajudar a reduzir custos com tempo e dinheiro, 
+descartando a necessidade de cardápios físicos 
+no seu restaurante, bar, lanchonete ou pizzaria;"
+
+Reduza gastos com tempo e dinheiro;
+O cardUp é uma solução para vc criar e diponilibizar o cardapio do seu estabelecimento, de forma
+simples, rápida e totalmente gerenciável.
+
+slide 2
+"Inicie fazendo um breve cadastro. 
+Informe seus dados e escolha o plano que melhor lhe atende."
+Trimestral, semenstral ou anual.
+
+Faça seu cadastro.
+Escolha o plano que e melhor te atende.
+Trimestral, semenstral ou anual.
+
+slide 3
+Para Criar seu cardápio informe o noe do seu restaurante,
+anexo sua logo e personalize com a scores que fazem pardte da sua identidade visual.
+
+slide 4
+Crie as categoria do seu cardapio.
+Exemplo: Bebidas, Pizzas, entradas...
+
+slide 5
+Em seguida adicione os itens do seu caráio. Cada item será composto por: código, foto, descrição, categoria e preço.
+E vc pode informar se o item estara em promoção. 
+
+slide 6
+apos cadastrar todos os itens finalize e recebe seu QR code para download.
+O qr code será o link que apontará para o seu cardapio online.
+Voce pode aplica-lo nas mesas ou nos porta-guardanapos:
+<figura>

@@ -1,0 +1,10 @@
+Ao cadastrar um novo usuário, uma nova pasta será criada automaticamente no diretorio 'src\img'.
+O nome dessa pasta é montado com Id do usuario + Id do cardápio + sequencia de 6 digitos.
+
+Exemplo:
+15-2-985425
+usuario de iD 15
+cardapio de ID 2
+sequencial randomico 985425
+
+Plano unico: R$ 55,00

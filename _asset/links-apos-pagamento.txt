@@ -1,0 +1,12 @@
+Links Test apos pagamento:
+
+Plano My Menu Trimestral Test
+https://www.mymenu.app.br/app/index.php?m=81&perido=3&cod=prod_SDkH4wkfN5gcf4
+
+Plano My Menu Semestral Test
+https://www.mymenu.app.br/app/index.php?m=81&perido=6&cod=prod_SGLYGyCgc5wDph
+
+Plano My Menu Anual Test
+https://www.mymenu.app.br/app/index.php?m=81&perido=12&cod=prod_SrN8q0vJqeHzdT
+
+

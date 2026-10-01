@@ -1,0 +1,14 @@
+.alertaModal {
+  /* Posição inicial: fora da tela, acima */
+  transform: translateY(-100%);
+  opacity: 0;
+
+  /* Transição para a animação */
+  transition: transform 1s ease-in-out;
+}
+
+/* Estado final: na posição correta */
+.alertaModal.aparecer {
+  transform: translateY(0);
+  opacity: 1;
+}

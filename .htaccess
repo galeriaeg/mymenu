@@ -1,0 +1,16 @@
+#RewriteEngine On
+#RewriteCond %{SCRIPT_FILENAME} !-f
+#RewriteCond %{SCRIPT_FILENAME} !-d
+
+#Redireciona para o HTTPS independente do domínio
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#Adiciona www. no prefixo do domínio
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#URL AMIGAVEL
+RewriteEngine on
+RewriteRule ^home/?$ index.php [NC,L]
+RewriteRule ^page/?$ page.php [NC,L]

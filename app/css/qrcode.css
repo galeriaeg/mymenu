@@ -1,0 +1,10 @@
+#qrcode {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+#qrcode img {
+  width: 100%; /*296px;*/
+  border: 0 solid red;
+}

@@ -1,0 +1,25 @@
+CRIAR CONTA:
+cria usuario no banco com status = 0
+cria o contrato no banco com status = 0
+cria customização padrao  (cores) com tipo = 2
+
+
+ACESSO
+
+para usuario acessar ele deve ser cadastrado;
+ser validado > status = 1
+ter contrato na base
+
+
+links externos sao criados com valores NULL
+
+Categoria nao é acoplado
+Planos nao é acoplado
+Item nao é acoplado
+Acesso nao é acoplado
+
+onkeyup="javascript:somente_numero(this);"
+
+
+
+home?p=validar-conta&action=true

@@ -1,0 +1,4 @@
+
+banco:galeriae_cardin
+user:galeriae_cardin
+pass:card*In-25

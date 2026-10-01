@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding:0;
+}
+
+.carousel-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.carousel {
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+    width: 12px;
+	height:1px;
+}
+.carousel::-webkit-scrollbar-thumb {
+    background-color:transparent; /*#d3d7db;*/
+    border-radius: 10px;
+}
+.carousel::-webkit-scrollbar-track {
+    background:transparent; /*#d3d7db;*/
+    border-radius: 10px;
+}
+
+
+.card {
+	min-width: fit-content;
+	height:30px;
+	background:#E5E7EA;
+	margin: 10px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	color:#666666;
+	cursor:pointer;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	display:none;
+}
+
+button {
+	background: #333;
+	color: white;
+	border: none;
+	padding: 8px 15px;
+	margin: 0 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.card {
+		min-width:fit-content;
+		color:#666666;
+		padding:13px 22px;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		width:auto;
+		color:#666666;
+		padding:13px 18px;
+	}
+}

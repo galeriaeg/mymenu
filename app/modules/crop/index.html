@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorte de Imagem antes do Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css">
+    <style>
+        /* Estilos básicos para o layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .img-container {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            background-color: #f7f7f7;
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ddd;
+        }
+        .img-container img {
+            max-width: 100%;
+            display: block;
+        }
+        .preview-container {
+            margin-top: 20px;
+            border: 1px dashed #ccc;
+            padding: 10px;
+            display: inline-block;
+        }
+        .preview-container img {
+            max-width: 200px; /* Tamanho da pré-visualização */
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recortar Imagem</h1>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="cropButton" style="display: none;">Recortar e Visualizar</button>
+
+    <div class="img-container">
+        <img id="imageToCrop" src="" alt="Imagem para recorte">
+    </div>
+
+    <div class="preview-container">
+        <h3>Pré-visualização da Imagem Recortada:</h3>
+        <img id="croppedImagePreview" src="" alt="Imagem Recortada">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+https://youtu.be/OrM9ZDZuxsc
+
+
+Após realizar o login no sistema, você pode efetuar 
+o pagamento do plano escolhido. Logo em seguida, 
+a tela será recarregada e você já poderá começar a montar 
+o seu cardápio;
+
+
+Para criar o seu cardápio, informe o nome do estabelecimento 
+e faça o upload da sua logomarca. Personalize seu cardápio com as cores 
+da sua identidade corporativa através do link "Personalização" no menu principal.
+
+
+O passo seguinte consiste na criação das categorias do seu cardápio. 
+Por Exemplo: entradas, bebidas, pizzas e muito mais, 
+tudo de acordo com a sua necessidade.
+
+
+Com o cardápio já criado, e as categorias já definidas, agora você deve 
+adicionar os itens do cardápio, cadastrando: título, código, 
+descrição, categoria, imagem e preço. Você ainda pode definir se o item a ser cadastrado
+está em oferta ou não.
+
+
+Uma vez que o cardápio está montado, agora você deve baixar o QR Code que será acessado pelos seus clientes. Pra isso, você deve entrar no link 'Cardápio', e através do botão "QR Code" você pode fazer download,  imprimi-lo, e fixá-lo nas mesas do seu estabelecimento, permitindo que seus clientes acessem seu cardápio com toda facilidade. 
